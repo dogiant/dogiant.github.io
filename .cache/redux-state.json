@@ -217,7 +217,10 @@
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -296,14 +299,14 @@
       "resolve": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/node_modules/gatsby-transformer-remark",
       "id": "Plugin gatsby-transformer-remark",
       "name": "gatsby-transformer-remark",
-      "version": "1.7.44",
+      "version": "1.7.40",
       "pluginOptions": {
         "plugins": [
           {
             "resolve": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/node_modules/gatsby-remark-images",
             "id": "Plugin gatsby-remark-images",
             "name": "gatsby-remark-images",
-            "version": "1.5.67",
+            "version": "1.5.61",
             "pluginOptions": {
               "plugins": [],
               "maxWidth": 590,
@@ -311,7 +314,7 @@
               "backgroundColor": "white",
               "linkImagesToOriginal": true,
               "showCaptions": false,
-              "pathPrefix": "/gatsby-starter-blog"
+              "pathPrefix": ""
             },
             "nodeAPIs": [],
             "browserAPIs": [],
@@ -322,7 +325,7 @@
             "resolve": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/node_modules/gatsby-remark-responsive-iframe",
             "id": "Plugin gatsby-remark-responsive-iframe",
             "name": "gatsby-remark-responsive-iframe",
-            "version": "1.4.20",
+            "version": "1.4.18",
             "pluginOptions": {
               "plugins": [],
               "wrapperStyle": "margin-bottom: 1.0725rem"
@@ -349,7 +352,7 @@
             "resolve": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/node_modules/gatsby-remark-copy-linked-files",
             "id": "Plugin gatsby-remark-copy-linked-files",
             "name": "gatsby-remark-copy-linked-files",
-            "version": "1.5.37",
+            "version": "1.5.31",
             "pluginOptions": {
               "plugins": [],
               "ignoreFileExtensions": [
@@ -390,14 +393,17 @@
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
-        "version": "1.7.44",
+        "version": "1.7.40",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
           "markdown",
           "remark"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -502,7 +508,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "982ea5049cf6220a4c7bdc449731f5ec",
+        "contentDigest": "cc62d6201358236df9b824ee3aa13c39",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -511,7 +517,7 @@
       "resolve": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/node_modules/gatsby-remark-images",
       "id": "Plugin gatsby-remark-images",
       "name": "gatsby-remark-images",
-      "version": "1.5.67",
+      "version": "1.5.61",
       "pluginOptions": {
         "plugins": [],
         "maxWidth": 590,
@@ -519,7 +525,7 @@
         "backgroundColor": "white",
         "linkImagesToOriginal": true,
         "showCaptions": false,
-        "pathPrefix": "/gatsby-starter-blog"
+        "pathPrefix": ""
       },
       "nodeAPIs": [],
       "browserAPIs": [],
@@ -528,7 +534,7 @@
       "packageJson": {
         "name": "gatsby-remark-images",
         "description": "Processes images in markdown so they can be used in the production build.",
-        "version": "1.5.67",
+        "version": "1.5.61",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -538,7 +544,10 @@
           "remark",
           "responsive images"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -551,7 +560,7 @@
           },
           {
             "name": "gatsby-plugin-sharp",
-            "version": "^1.6.48"
+            "version": "^1.6.42"
           },
           {
             "name": "is-relative-url",
@@ -587,7 +596,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cc3dc86596985ce654581be40612a193",
+        "contentDigest": "7e819214ef03d1147b8aa1b40d926e6d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -596,7 +605,7 @@
       "resolve": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/node_modules/gatsby-remark-responsive-iframe",
       "id": "Plugin gatsby-remark-responsive-iframe",
       "name": "gatsby-remark-responsive-iframe",
-      "version": "1.4.20",
+      "version": "1.4.18",
       "pluginOptions": {
         "plugins": [],
         "wrapperStyle": "margin-bottom: 1.0725rem"
@@ -608,14 +617,17 @@
       "packageJson": {
         "name": "gatsby-remark-responsive-iframe",
         "description": "Make iframes in Markdown processed by Remark responsive",
-        "version": "1.4.20",
+        "version": "1.4.18",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
           "remark"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -664,7 +676,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a7c34d0d1a29ea32f7855bb790cb1454",
+        "contentDigest": "d09f9d1cd985c7cadc4a669a66c91280",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -692,7 +704,10 @@
           "prismjs",
           "remark"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -742,7 +757,7 @@
       "resolve": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/node_modules/gatsby-remark-copy-linked-files",
       "id": "Plugin gatsby-remark-copy-linked-files",
       "name": "gatsby-remark-copy-linked-files",
-      "version": "1.5.37",
+      "version": "1.5.31",
       "pluginOptions": {
         "plugins": [],
         "ignoreFileExtensions": [
@@ -760,7 +775,7 @@
       "packageJson": {
         "name": "gatsby-remark-copy-linked-files",
         "description": "Find files which are linked to from markdown and copy them to the public directory",
-        "version": "1.5.37",
+        "version": "1.5.31",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -768,7 +783,10 @@
           "prismjs",
           "remark"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -797,7 +815,7 @@
           },
           {
             "name": "probe-image-size",
-            "version": "^4.0.0"
+            "version": "^3.2.0"
           },
           {
             "name": "unist-util-visit",
@@ -821,7 +839,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f38c2b55e9416447b530d45164b2b5fc",
+        "contentDigest": "df05528539df1d5c3a5334797ce53f6f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -848,7 +866,10 @@
           "gatsby-plugin",
           "smartypants"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -894,7 +915,7 @@
       "resolve": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/node_modules/gatsby-transformer-sharp",
       "id": "Plugin gatsby-transformer-sharp",
       "name": "gatsby-transformer-sharp",
-      "version": "1.6.27",
+      "version": "1.6.22",
       "pluginOptions": {
         "plugins": []
       },
@@ -909,14 +930,17 @@
       "packageJson": {
         "name": "gatsby-transformer-sharp",
         "description": "Gatsby transformer plugin for images using Sharp",
-        "version": "1.6.27",
+        "version": "1.6.22",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
           "image",
           "sharp"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -933,7 +957,7 @@
           },
           {
             "name": "probe-image-size",
-            "version": "^4.0.0"
+            "version": "^3.2.0"
           }
         ],
         "devDependencies": [
@@ -953,7 +977,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "76767605e6ef50be6a917fee373fb6ce",
+        "contentDigest": "a6db0fb9fe0dc645f330af61562ef66b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -981,7 +1005,10 @@
           "image",
           "sharp"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -1068,7 +1095,7 @@
       "resolve": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/node_modules/gatsby-plugin-google-analytics",
       "id": "Plugin gatsby-plugin-google-analytics",
       "name": "gatsby-plugin-google-analytics",
-      "version": "1.0.31",
+      "version": "1.0.29",
       "pluginOptions": {
         "plugins": []
       },
@@ -1083,14 +1110,17 @@
       "packageJson": {
         "name": "gatsby-plugin-google-analytics",
         "description": "Gatsby plugin to add google analytics onto a site",
-        "version": "1.0.31",
+        "version": "1.0.29",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
           "google analytics"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -1120,7 +1150,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "58ecfa759e9eeb84dbc017e7731b751f",
+        "contentDigest": "2d1254fe9f428cd9e76450997012f11f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1129,7 +1159,7 @@
       "resolve": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/node_modules/gatsby-plugin-feed",
       "id": "Plugin gatsby-plugin-feed",
       "name": "gatsby-plugin-feed",
-      "version": "1.3.25",
+      "version": "1.3.20",
       "pluginOptions": {
         "plugins": []
       },
@@ -1144,7 +1174,7 @@
       "packageJson": {
         "name": "gatsby-plugin-feed",
         "description": "Creates an RSS feed for your Gatsby site.",
-        "version": "1.3.25",
+        "version": "1.3.20",
         "main": "index.js",
         "keywords": [
           "atom",
@@ -1153,7 +1183,10 @@
           "gatsby-plugin",
           "rss"
         ],
-        "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
+        "author": {
+          "name": "Nicholas Young",
+          "email": "nicholas@nicholaswyoung.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -1163,10 +1196,6 @@
           {
             "name": "lodash.merge",
             "version": "^4.6.0"
-          },
-          {
-            "name": "mkdirp",
-            "version": "^0.5.1"
           },
           {
             "name": "pify",
@@ -1199,7 +1228,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e19ddfc95d9b860dbe4fe621e2e86878",
+        "contentDigest": "d3f67dfe017c5cab5da1717660d5d9c2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1208,7 +1237,7 @@
       "resolve": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/node_modules/gatsby-plugin-offline",
       "id": "Plugin gatsby-plugin-offline",
       "name": "gatsby-plugin-offline",
-      "version": "1.0.18",
+      "version": "1.0.15",
       "pluginOptions": {
         "plugins": []
       },
@@ -1224,7 +1253,7 @@
       "packageJson": {
         "name": "gatsby-plugin-offline",
         "description": "Gatsby plugin which sets up a site to be able to run offline",
-        "version": "1.0.18",
+        "version": "1.0.15",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -1233,7 +1262,10 @@
           "precache",
           "service-worker"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -1267,7 +1299,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "24bb537ce3845b2d6a0e398d87670845",
+        "contentDigest": "c1f71b3d6b538f11a68f1756eb38ee97",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1294,7 +1326,9 @@
         "keywords": [
           "gatsby"
         ],
-        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -1332,7 +1366,7 @@
       "resolve": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/node_modules/gatsby-plugin-typography",
       "id": "Plugin gatsby-plugin-typography",
       "name": "gatsby-plugin-typography",
-      "version": "1.7.19",
+      "version": "1.7.18",
       "pluginOptions": {
         "plugins": [],
         "pathToConfigModule": "src/utils/typography"
@@ -1350,7 +1384,7 @@
       "packageJson": {
         "name": "gatsby-plugin-typography",
         "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
-        "version": "1.7.19",
+        "version": "1.7.18",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -1358,7 +1392,10 @@
           "typography",
           "typography.js"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -1392,7 +1429,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9ecba6f0b6c5a95d4567f4b6b4b8448e",
+        "contentDigest": "4b9b106f85ce8dc2731bd4d1069f325f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1401,7 +1438,7 @@
       "resolve": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "c61b2e0c6189071227e16e99b72f78aa",
+      "version": "25846b871e68b3b924051d8dd635de75",
       "pluginOptions": {
         "plugins": []
       },
@@ -1425,7 +1462,7 @@
         "dependencies": [
           {
             "name": "gatsby",
-            "version": "^1.9.250"
+            "version": "^1.9.277"
           },
           {
             "name": "gatsby-link",
@@ -1449,7 +1486,7 @@
           },
           {
             "name": "gatsby-plugin-sharp",
-            "version": "^1.6.42"
+            "version": "^1.6.48"
           },
           {
             "name": "gatsby-plugin-typography",
@@ -1477,7 +1514,7 @@
           },
           {
             "name": "gatsby-source-filesystem",
-            "version": "^1.5.31"
+            "version": "^1.5.39"
           },
           {
             "name": "gatsby-transformer-remark",
@@ -1515,7 +1552,7 @@
           },
           {
             "name": "gh-pages",
-            "version": "^1.1.0"
+            "version": "^1.2.0"
           },
           {
             "name": "prettier",
@@ -1529,7 +1566,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a4fe1f44a37703aec63fb43066ebc570",
+        "contentDigest": "c527d057d70175caf0707bfe73f059e9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1559,7 +1596,10 @@
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -1618,16 +1658,16 @@
         "title": "Gatsby Starter Blog",
         "author": "Kyle Mathews",
         "description": "A starter blog demonstrating what Gatsby can do.",
-        "siteUrl": "https://gatsbyjs.github.io/gatsby-starter-blog/"
+        "siteUrl": "https://dogiant.github.io/"
       },
-      "pathPrefix": "/gatsby-starter-blog",
+      "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-03T09:14:54.252Z",
+      "buildTime": "2018-08-03T10:17:27.278Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2ba719481a722e6966ae696686c3938d",
+        "contentDigest": "9c26c71b896e334ce083d87b9740dbb8",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1637,7 +1677,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "30ca2b6263a46f397454c9ca651114c4",
+        "contentDigest": "4ef4db1efc44be716ed4c1898a7fca08",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1649,8 +1689,8 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-08-02T10:35:19.574Z",
-      "accessTime": "2018-08-03T09:14:58.108Z",
-      "changeTime": "2018-08-03T09:08:47.581Z",
+      "accessTime": "2018-08-03T10:17:29.770Z",
+      "changeTime": "2018-08-03T09:59:18.690Z",
       "birthTime": "2018-08-02T10:35:19.571Z",
       "root": "/",
       "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src",
@@ -1665,67 +1705,23 @@
       "gid": 1603212982,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 10556380,
+      "ino": 10626976,
       "blocks": 0,
-      "atimeMs": 1533287698108.1794,
+      "atimeMs": 1533291449770.1177,
       "mtimeMs": 1533206119574.1292,
-      "ctimeMs": 1533287327581.1184,
+      "ctimeMs": 1533290358689.5444,
       "birthtimeMs": 1533206119571.3494,
-      "atime": "2018-08-03T09:14:58.108Z",
+      "atime": "2018-08-03T10:17:29.770Z",
       "mtime": "2018-08-02T10:35:19.574Z",
-      "ctime": "2018-08-03T09:08:47.581Z",
+      "ctime": "2018-08-03T09:59:18.690Z",
       "birthtime": "2018-08-02T10:35:19.571Z"
-    },
-    "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world absPath of file": {
-      "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "55330f64f5e551503fe6f3454c90a884",
-        "type": "Directory",
-        "description": "Directory \"src/pages/hello-world\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world",
-      "relativePath": "hello-world",
-      "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2018-08-02T10:35:19.572Z",
-      "accessTime": "2018-08-03T09:14:58.111Z",
-      "changeTime": "2018-08-03T09:08:47.580Z",
-      "birthTime": "2018-08-02T10:35:19.572Z",
-      "root": "/",
-      "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages",
-      "base": "hello-world",
-      "ext": "",
-      "name": "hello-world",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 4,
-      "uid": 1665698818,
-      "gid": 1603212982,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 10556383,
-      "blocks": 0,
-      "atimeMs": 1533287698110.8435,
-      "mtimeMs": 1533206119571.7693,
-      "ctimeMs": 1533287327579.8618,
-      "birthtimeMs": 1533206119571.522,
-      "atime": "2018-08-03T09:14:58.111Z",
-      "mtime": "2018-08-02T10:35:19.572Z",
-      "ctime": "2018-08-03T09:08:47.580Z",
-      "birthtime": "2018-08-02T10:35:19.572Z"
     },
     "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks absPath of file": {
       "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b29fc7615ae647d7c85ae0e641b7a218",
+        "contentDigest": "dfef94a7b3f21fc67cf4536d7a8251aa",
         "type": "Directory",
         "description": "Directory \"src/pages/hi-folks\"",
         "owner": "gatsby-source-filesystem"
@@ -1737,8 +1733,8 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-02T10:35:19.574Z",
-      "accessTime": "2018-08-03T09:14:58.111Z",
-      "changeTime": "2018-08-03T09:08:47.580Z",
+      "accessTime": "2018-08-03T10:17:29.773Z",
+      "changeTime": "2018-08-03T09:59:18.689Z",
       "birthTime": "2018-08-02T10:35:19.574Z",
       "root": "/",
       "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages",
@@ -1753,23 +1749,67 @@
       "gid": 1603212982,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 10556386,
+      "ino": 10626982,
       "blocks": 0,
-      "atimeMs": 1533287698110.7744,
+      "atimeMs": 1533291449772.7773,
       "mtimeMs": 1533206119573.7307,
-      "ctimeMs": 1533287327580.493,
+      "ctimeMs": 1533290358688.9326,
       "birthtimeMs": 1533206119573.6755,
-      "atime": "2018-08-03T09:14:58.111Z",
+      "atime": "2018-08-03T10:17:29.773Z",
       "mtime": "2018-08-02T10:35:19.574Z",
-      "ctime": "2018-08-03T09:08:47.580Z",
+      "ctime": "2018-08-03T09:59:18.689Z",
       "birthtime": "2018-08-02T10:35:19.574Z"
+    },
+    "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world absPath of file": {
+      "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "540b039bf79c59268a08aba55a3d5ba3",
+        "type": "Directory",
+        "description": "Directory \"src/pages/hello-world\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world",
+      "relativePath": "hello-world",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-08-02T10:35:19.572Z",
+      "accessTime": "2018-08-03T10:17:29.773Z",
+      "changeTime": "2018-08-03T09:59:18.688Z",
+      "birthTime": "2018-08-02T10:35:19.572Z",
+      "root": "/",
+      "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages",
+      "base": "hello-world",
+      "ext": "",
+      "name": "hello-world",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 1665698818,
+      "gid": 1603212982,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 10626979,
+      "blocks": 0,
+      "atimeMs": 1533291449772.7603,
+      "mtimeMs": 1533206119571.7693,
+      "ctimeMs": 1533290358688.3535,
+      "birthtimeMs": 1533206119571.522,
+      "atime": "2018-08-03T10:17:29.773Z",
+      "mtime": "2018-08-02T10:35:19.572Z",
+      "ctime": "2018-08-03T09:59:18.688Z",
+      "birthtime": "2018-08-02T10:35:19.572Z"
     },
     "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post absPath of file": {
       "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ca5a714300d0fa7125ceb70b930700e0",
+        "contentDigest": "0d09400456e7aaf05a783135f245caac",
         "type": "Directory",
         "description": "Directory \"src/pages/my-second-post\"",
         "owner": "gatsby-source-filesystem"
@@ -1781,8 +1821,8 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-02T10:35:19.574Z",
-      "accessTime": "2018-08-03T09:14:58.111Z",
-      "changeTime": "2018-08-03T09:08:47.581Z",
+      "accessTime": "2018-08-03T10:17:29.773Z",
+      "changeTime": "2018-08-03T09:59:18.689Z",
       "birthTime": "2018-08-02T10:35:19.574Z",
       "root": "/",
       "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages",
@@ -1797,15 +1837,15 @@
       "gid": 1603212982,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 10556388,
+      "ino": 10626984,
       "blocks": 0,
-      "atimeMs": 1533287698110.865,
+      "atimeMs": 1533291449772.8376,
       "mtimeMs": 1533206119574.1755,
-      "ctimeMs": 1533287327581.0674,
+      "ctimeMs": 1533290358689.4915,
       "birthtimeMs": 1533206119574.1235,
-      "atime": "2018-08-03T09:14:58.111Z",
+      "atime": "2018-08-03T10:17:29.773Z",
       "mtime": "2018-08-02T10:35:19.574Z",
-      "ctime": "2018-08-03T09:08:47.581Z",
+      "ctime": "2018-08-03T09:59:18.689Z",
       "birthtime": "2018-08-02T10:35:19.574Z"
     },
     "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/404.js absPath of file": {
@@ -1826,8 +1866,8 @@
       "size": 198,
       "prettySize": "198 B",
       "modifiedTime": "2018-08-02T10:35:19.571Z",
-      "accessTime": "2018-08-03T09:14:39.881Z",
-      "changeTime": "2018-08-03T09:08:47.578Z",
+      "accessTime": "2018-08-03T10:10:04.595Z",
+      "changeTime": "2018-08-03T09:59:18.687Z",
       "birthTime": "2018-08-02T10:35:19.571Z",
       "root": "/",
       "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages",
@@ -1842,63 +1882,16 @@
       "gid": 1603212982,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 10556381,
+      "ino": 10626977,
       "blocks": 8,
-      "atimeMs": 1533287679881.2786,
+      "atimeMs": 1533291004595.4429,
       "mtimeMs": 1533206119571.4487,
-      "ctimeMs": 1533287327578.3704,
+      "ctimeMs": 1533290358687.2473,
       "birthtimeMs": 1533206119571.3958,
-      "atime": "2018-08-03T09:14:39.881Z",
+      "atime": "2018-08-03T10:10:04.595Z",
       "mtime": "2018-08-02T10:35:19.571Z",
-      "ctime": "2018-08-03T09:08:47.578Z",
+      "ctime": "2018-08-03T09:59:18.687Z",
       "birthtime": "2018-08-02T10:35:19.571Z"
-    },
-    "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file": {
-      "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file",
-      "children": [
-        "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "66c2cf03869f73febeb491640f87af5d",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/pages/hi-folks/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md",
-      "relativePath": "hi-folks/index.md",
-      "extension": "md",
-      "size": 5460,
-      "prettySize": "5.46 kB",
-      "modifiedTime": "2018-08-02T10:35:19.574Z",
-      "accessTime": "2018-08-03T09:14:39.879Z",
-      "changeTime": "2018-08-03T09:08:47.580Z",
-      "birthTime": "2018-08-02T10:35:19.574Z",
-      "root": "/",
-      "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "hi-folks",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 1665698818,
-      "gid": 1603212982,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 10556387,
-      "blocks": 16,
-      "atimeMs": 1533287679879.421,
-      "mtimeMs": 1533206119573.8708,
-      "ctimeMs": 1533287327580.4365,
-      "birthtimeMs": 1533206119573.7253,
-      "atime": "2018-08-03T09:14:39.879Z",
-      "mtime": "2018-08-02T10:35:19.574Z",
-      "ctime": "2018-08-03T09:08:47.580Z",
-      "birthtime": "2018-08-02T10:35:19.574Z"
     },
     "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/index.js absPath of file": {
       "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/index.js absPath of file",
@@ -1918,8 +1911,8 @@
       "size": 1551,
       "prettySize": "1.55 kB",
       "modifiedTime": "2018-08-02T10:35:19.574Z",
-      "accessTime": "2018-08-03T09:14:39.881Z",
-      "changeTime": "2018-08-03T09:08:47.579Z",
+      "accessTime": "2018-08-03T10:10:04.602Z",
+      "changeTime": "2018-08-03T09:59:18.688Z",
       "birthTime": "2018-08-02T10:35:19.574Z",
       "root": "/",
       "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages",
@@ -1934,15 +1927,15 @@
       "gid": 1603212982,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 10556382,
+      "ino": 10626978,
       "blocks": 8,
-      "atimeMs": 1533287679881.3125,
+      "atimeMs": 1533291004601.8228,
       "mtimeMs": 1533206119574.0403,
-      "ctimeMs": 1533287327578.7056,
+      "ctimeMs": 1533290358687.541,
       "birthtimeMs": 1533206119573.964,
-      "atime": "2018-08-03T09:14:39.881Z",
+      "atime": "2018-08-03T10:10:04.602Z",
       "mtime": "2018-08-02T10:35:19.574Z",
-      "ctime": "2018-08-03T09:08:47.579Z",
+      "ctime": "2018-08-03T09:59:18.688Z",
       "birthtime": "2018-08-02T10:35:19.574Z"
     },
     "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world/index.md absPath of file": {
@@ -1965,8 +1958,8 @@
       "size": 857,
       "prettySize": "857 B",
       "modifiedTime": "2018-08-02T10:35:19.572Z",
-      "accessTime": "2018-08-03T09:14:39.880Z",
-      "changeTime": "2018-08-03T09:08:47.579Z",
+      "accessTime": "2018-08-03T10:10:04.595Z",
+      "changeTime": "2018-08-03T09:59:18.688Z",
       "birthTime": "2018-08-02T10:35:19.572Z",
       "root": "/",
       "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world",
@@ -1981,16 +1974,63 @@
       "gid": 1603212982,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 10556384,
+      "ino": 10626980,
       "blocks": 8,
-      "atimeMs": 1533287679879.5273,
+      "atimeMs": 1533291004595.4988,
       "mtimeMs": 1533206119571.6272,
-      "ctimeMs": 1533287327579.3367,
+      "ctimeMs": 1533290358687.9402,
       "birthtimeMs": 1533206119571.566,
-      "atime": "2018-08-03T09:14:39.880Z",
+      "atime": "2018-08-03T10:10:04.595Z",
       "mtime": "2018-08-02T10:35:19.572Z",
-      "ctime": "2018-08-03T09:08:47.579Z",
+      "ctime": "2018-08-03T09:59:18.688Z",
       "birthtime": "2018-08-02T10:35:19.572Z"
+    },
+    "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file": {
+      "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file",
+      "children": [
+        "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "66c2cf03869f73febeb491640f87af5d",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/hi-folks/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md",
+      "relativePath": "hi-folks/index.md",
+      "extension": "md",
+      "size": 5460,
+      "prettySize": "5.46 kB",
+      "modifiedTime": "2018-08-02T10:35:19.574Z",
+      "accessTime": "2018-08-03T10:10:04.602Z",
+      "changeTime": "2018-08-03T09:59:18.689Z",
+      "birthTime": "2018-08-02T10:35:19.574Z",
+      "root": "/",
+      "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hi-folks",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1665698818,
+      "gid": 1603212982,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 10626983,
+      "blocks": 16,
+      "atimeMs": 1533291004601.678,
+      "mtimeMs": 1533206119573.8708,
+      "ctimeMs": 1533290358688.8718,
+      "birthtimeMs": 1533206119573.7253,
+      "atime": "2018-08-03T10:10:04.602Z",
+      "mtime": "2018-08-02T10:35:19.574Z",
+      "ctime": "2018-08-03T09:59:18.689Z",
+      "birthtime": "2018-08-02T10:35:19.574Z"
     },
     "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file": {
       "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file",
@@ -2012,8 +2052,8 @@
       "size": 378,
       "prettySize": "378 B",
       "modifiedTime": "2018-08-02T10:35:19.574Z",
-      "accessTime": "2018-08-03T09:14:39.878Z",
-      "changeTime": "2018-08-03T09:08:47.581Z",
+      "accessTime": "2018-08-03T10:10:04.602Z",
+      "changeTime": "2018-08-03T09:59:18.689Z",
       "birthTime": "2018-08-02T10:35:19.574Z",
       "root": "/",
       "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post",
@@ -2028,42 +2068,16 @@
       "gid": 1603212982,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 10556389,
+      "ino": 10626985,
       "blocks": 8,
-      "atimeMs": 1533287679878.1455,
+      "atimeMs": 1533291004601.906,
       "mtimeMs": 1533206119574.2263,
-      "ctimeMs": 1533287327581.018,
+      "ctimeMs": 1533290358689.4338,
       "birthtimeMs": 1533206119574.1704,
-      "atime": "2018-08-03T09:14:39.878Z",
+      "atime": "2018-08-03T10:10:04.602Z",
       "mtime": "2018-08-02T10:35:19.574Z",
-      "ctime": "2018-08-03T09:08:47.581Z",
+      "ctime": "2018-08-03T09:59:18.689Z",
       "birthtime": "2018-08-02T10:35:19.574Z"
-    },
-    "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file",
-      "internal": {
-        "content": "---\ntitle: New Beginnings\ndate: \"2015-05-28T22:40:32.169Z\"\n---\n\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\nDuden flows by their place and supplies it with the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n* This however showed weasel\n* Well uncritical so misled\n  * this is very interesting\n* Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she had a last\nview back on the skyline of her hometown _Bookmarksgrove_, the headline of\n[Alphabet Village](http://google.com) and the subline of her own road, the Line\nLane. Pityful a rethoric question ran over her cheek, then she continued her\nway. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with\n[Longe and Parole](http://google.com) and dragged her into their agency, where\nthey abused her for their projects again and again. And if she hasn’t been\nrewritten, then they are still using her.\n\n> Far far away, behind the word mountains, far from the countries Vokalia and\n> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove\n> right at the coast of the Semantics, a large language ocean.\n\nIt is a paradisematic country, in which roasted parts of sentences fly into your\nmouth. Even the all-powerful Pointing has no control about the blind texts it is\nan almost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic\n    impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a last view\nback on the skyline of her hometown Bookmarksgrove, the headline of Alphabet\nVillage and the subline of her own road, the Line Lane. Pityful a rethoric\nquestion ran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n> The copy warned the Little Blind Text, that where it came from it would have\n> been rewritten a thousand times and everything that was left from its origin\n> would be the word \"and\" and the Little Blind Text should turn around and\n> return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with Longe and Parole\nand dragged her into their agency, where they abused her for their projects\nagain and again. And if she hasn’t been rewritten, then they are still using\nher. Far far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the Semantics, a\nlarge language ocean. A small river named Duden flows by their place and\nsupplies it with the necessary regelialia. It is a paradisematic country, in\nwhich roasted parts of sentences fly into your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts it is an\nalmost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox\nadvised her not to do so, because there were thousands of bad Commas, wild\nQuestion Marks and devious Semikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and made herself on\nthe way. When she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the headline of\nAlphabet Village and the subline of her own road, the Line Lane. Pityful a\nrethoric question ran over her cheek, then she continued her way. On her way she\nmet a copy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it would have\nbeen rewritten a thousand times and everything that was left from its origin\nwould be the word \"and\" and the Little Blind Text should turn around and return\nto its own, safe country. But nothing the copy said could convince her and so it\ndidn’t take long until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they abused her\nfor their projects again and again.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "eadac19fd5d2e5b1cea1a7c20ccaa6b1",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "New Beginnings",
-        "date": "2015-05-28T22:40:32.169Z",
-        "_PARENT": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file",
-        "parent": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\nDuden flows by their place and supplies it with the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n* This however showed weasel\n* Well uncritical so misled\n  * this is very interesting\n* Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she had a last\nview back on the skyline of her hometown _Bookmarksgrove_, the headline of\n[Alphabet Village](http://google.com) and the subline of her own road, the Line\nLane. Pityful a rethoric question ran over her cheek, then she continued her\nway. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with\n[Longe and Parole](http://google.com) and dragged her into their agency, where\nthey abused her for their projects again and again. And if she hasn’t been\nrewritten, then they are still using her.\n\n> Far far away, behind the word mountains, far from the countries Vokalia and\n> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove\n> right at the coast of the Semantics, a large language ocean.\n\nIt is a paradisematic country, in which roasted parts of sentences fly into your\nmouth. Even the all-powerful Pointing has no control about the blind texts it is\nan almost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic\n    impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a last view\nback on the skyline of her hometown Bookmarksgrove, the headline of Alphabet\nVillage and the subline of her own road, the Line Lane. Pityful a rethoric\nquestion ran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n> The copy warned the Little Blind Text, that where it came from it would have\n> been rewritten a thousand times and everything that was left from its origin\n> would be the word \"and\" and the Little Blind Text should turn around and\n> return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with Longe and Parole\nand dragged her into their agency, where they abused her for their projects\nagain and again. And if she hasn’t been rewritten, then they are still using\nher. Far far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the Semantics, a\nlarge language ocean. A small river named Duden flows by their place and\nsupplies it with the necessary regelialia. It is a paradisematic country, in\nwhich roasted parts of sentences fly into your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts it is an\nalmost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox\nadvised her not to do so, because there were thousands of bad Commas, wild\nQuestion Marks and devious Semikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and made herself on\nthe way. When she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the headline of\nAlphabet Village and the subline of her own road, the Line Lane. Pityful a\nrethoric question ran over her cheek, then she continued her way. On her way she\nmet a copy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it would have\nbeen rewritten a thousand times and everything that was left from its origin\nwould be the word \"and\" and the Little Blind Text should turn around and return\nto its own, safe country. But nothing the copy said could convince her and so it\ndidn’t take long until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they abused her\nfor their projects again and again.\n",
-      "fileAbsolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md",
-      "fields": {
-        "slug": "/hi-folks/"
-      }
     },
     "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world/index.md absPath of file >>> MarkdownRemark",
@@ -2072,7 +2086,7 @@
       "internal": {
         "content": "---\ntitle: Hello World\ndate: \"2015-05-01T22:12:03.284Z\"\n---\n\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
         "type": "MarkdownRemark",
-        "contentDigest": "521ba39bd35ad6cdf7be7aecb33d1e9b",
+        "contentDigest": "8bcb7f7a7d52c6dcaae337a1e8d6c282",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -2085,10 +2099,34 @@
         "parent": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world/index.md absPath of file"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
       "fileAbsolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world/index.md",
       "fields": {
         "slug": "/hello-world/"
+      }
+    },
+    "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: New Beginnings\ndate: \"2015-05-28T22:40:32.169Z\"\n---\n\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\nDuden flows by their place and supplies it with the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n* This however showed weasel\n* Well uncritical so misled\n  * this is very interesting\n* Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she had a last\nview back on the skyline of her hometown _Bookmarksgrove_, the headline of\n[Alphabet Village](http://google.com) and the subline of her own road, the Line\nLane. Pityful a rethoric question ran over her cheek, then she continued her\nway. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with\n[Longe and Parole](http://google.com) and dragged her into their agency, where\nthey abused her for their projects again and again. And if she hasn’t been\nrewritten, then they are still using her.\n\n> Far far away, behind the word mountains, far from the countries Vokalia and\n> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove\n> right at the coast of the Semantics, a large language ocean.\n\nIt is a paradisematic country, in which roasted parts of sentences fly into your\nmouth. Even the all-powerful Pointing has no control about the blind texts it is\nan almost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic\n    impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a last view\nback on the skyline of her hometown Bookmarksgrove, the headline of Alphabet\nVillage and the subline of her own road, the Line Lane. Pityful a rethoric\nquestion ran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n> The copy warned the Little Blind Text, that where it came from it would have\n> been rewritten a thousand times and everything that was left from its origin\n> would be the word \"and\" and the Little Blind Text should turn around and\n> return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with Longe and Parole\nand dragged her into their agency, where they abused her for their projects\nagain and again. And if she hasn’t been rewritten, then they are still using\nher. Far far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the Semantics, a\nlarge language ocean. A small river named Duden flows by their place and\nsupplies it with the necessary regelialia. It is a paradisematic country, in\nwhich roasted parts of sentences fly into your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts it is an\nalmost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox\nadvised her not to do so, because there were thousands of bad Commas, wild\nQuestion Marks and devious Semikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and made herself on\nthe way. When she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the headline of\nAlphabet Village and the subline of her own road, the Line Lane. Pityful a\nrethoric question ran over her cheek, then she continued her way. On her way she\nmet a copy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it would have\nbeen rewritten a thousand times and everything that was left from its origin\nwould be the word \"and\" and the Little Blind Text should turn around and return\nto its own, safe country. But nothing the copy said could convince her and so it\ndidn’t take long until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they abused her\nfor their projects again and again.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "e107e93ea001a37e547c89a17860956c",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "New Beginnings",
+        "date": "2015-05-28T22:40:32.169Z",
+        "_PARENT": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file",
+        "parent": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md",
+      "fields": {
+        "slug": "/hi-folks/"
       }
     },
     "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file >>> MarkdownRemark": {
@@ -2098,7 +2136,7 @@
       "internal": {
         "content": "---\ntitle: My Second Post!\ndate: \"2015-05-06T23:46:37.121Z\"\n---\n\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"?\n([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "0cb1e509ab48f0442b0450c62c2d25dd",
+        "contentDigest": "feb26b6709dd33026edf1137ff5c8f08",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -2111,7 +2149,6 @@
         "parent": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"?\n([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
       "fileAbsolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md",
       "fields": {
         "slug": "/my-second-post/"
@@ -2137,8 +2174,8 @@
       "size": 684322,
       "prettySize": "684 kB",
       "modifiedTime": "2018-08-02T10:35:19.574Z",
-      "accessTime": "2018-08-03T09:14:39.870Z",
-      "changeTime": "2018-08-03T09:08:47.580Z",
+      "accessTime": "2018-08-03T10:10:04.596Z",
+      "changeTime": "2018-08-03T09:59:18.688Z",
       "birthTime": "2018-08-02T10:35:19.572Z",
       "root": "/",
       "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world",
@@ -2153,15 +2190,15 @@
       "gid": 1603212982,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 10556385,
+      "ino": 10626981,
       "blocks": 1344,
-      "atimeMs": 1533287679870.0466,
+      "atimeMs": 1533291004595.5557,
       "mtimeMs": 1533206119573.5806,
-      "ctimeMs": 1533287327579.7551,
+      "ctimeMs": 1533290358688.2969,
       "birthtimeMs": 1533206119571.7622,
-      "atime": "2018-08-03T09:14:39.870Z",
+      "atime": "2018-08-03T10:10:04.596Z",
       "mtime": "2018-08-02T10:35:19.574Z",
-      "ctime": "2018-08-03T09:08:47.580Z",
+      "ctime": "2018-08-03T09:59:18.688Z",
       "birthtime": "2018-08-02T10:35:19.572Z"
     },
     "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world/salty_egg.jpg absPath of file >> ImageSharp": {
@@ -2190,7 +2227,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dfc43f51e08d29141e2c26ed2d353752",
+        "contentDigest": "2192e687bd8a2570cd4a81459a719db1",
         "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
@@ -2222,7 +2259,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "be2cda344b66aa191c1944831ce39f24",
+        "contentDigest": "7c87ebc52f832e6cd25406dbabdc06b0",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2261,7 +2298,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f9822e2147f332a3f1cd0b65756f8c88",
+        "contentDigest": "6cca861136be3821ecabe052e2ec4b56",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2293,7 +2330,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ca145dab1e1d62e6df0efff767041491",
+        "contentDigest": "beb35ca2e6ea49f2f2b8c184ef8501b5",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2314,7 +2351,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "37f02e07e0de8ee7c46d98dd4514032e",
+        "contentDigest": "238ef139a7c7d00cd4485095d768f9c2",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2335,7 +2372,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "019e98a772848d22c96cfa02d04bd0cc",
+        "contentDigest": "047542acca656db796b6051d976cc989",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2356,7 +2393,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4d1c1b76ef6a8732797eec9ec53abdb5",
+        "contentDigest": "9c3b354e533e374f8685839e818fd90e",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -2364,7 +2401,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "0dbcf89da5ac796f9f56acb18b9add51"
+    "PLUGINS_HASH": "ae0ba9271252818a156a5b1b3367f8f3"
   },
   "componentDataDependencies": {
     "nodes": {
