@@ -1438,7 +1438,7 @@
       "resolve": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "25846b871e68b3b924051d8dd635de75",
+      "version": "3889fbc5f7b7edd2726d2d26599a071c",
       "pluginOptions": {
         "plugins": []
       },
@@ -1566,7 +1566,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c527d057d70175caf0707bfe73f059e9",
+        "contentDigest": "e66c00b23fbef29831b6eedd548a18e3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1662,12 +1662,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-06T09:33:56.521Z",
+      "buildTime": "2018-08-06T10:16:36.413Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e6b95d01850b35309d6055b7855a1674",
+        "contentDigest": "35a6c910a8c019cfe6ae994d0561e424",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1677,7 +1677,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "026a6804632cfa7eed0623d365155d0e",
+        "contentDigest": "79a2e430d6c418183d7e163494a1f4fd",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1689,7 +1689,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-08-02T10:35:19.574Z",
-      "accessTime": "2018-08-06T09:33:59.067Z",
+      "accessTime": "2018-08-06T10:16:39.180Z",
       "changeTime": "2018-08-03T09:59:18.690Z",
       "birthTime": "2018-08-02T10:35:19.571Z",
       "root": "/",
@@ -1707,11 +1707,11 @@
       "blksize": 4194304,
       "ino": 10626976,
       "blocks": 0,
-      "atimeMs": 1533548039066.7737,
+      "atimeMs": 1533550599180.2278,
       "mtimeMs": 1533206119574.1292,
       "ctimeMs": 1533290358689.5444,
       "birthtimeMs": 1533206119571.3494,
-      "atime": "2018-08-06T09:33:59.067Z",
+      "atime": "2018-08-06T10:16:39.180Z",
       "mtime": "2018-08-02T10:35:19.574Z",
       "ctime": "2018-08-03T09:59:18.690Z",
       "birthtime": "2018-08-02T10:35:19.571Z"
@@ -1721,7 +1721,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f0a598579aaf97d3a9cbfd24c494987b",
+        "contentDigest": "434f7e8a8fb078341a577908e975d715",
         "type": "Directory",
         "description": "Directory \"src/pages/hello-world\"",
         "owner": "gatsby-source-filesystem"
@@ -1733,7 +1733,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-02T10:35:19.572Z",
-      "accessTime": "2018-08-06T09:33:59.077Z",
+      "accessTime": "2018-08-06T10:16:39.183Z",
       "changeTime": "2018-08-03T09:59:18.688Z",
       "birthTime": "2018-08-02T10:35:19.572Z",
       "root": "/",
@@ -1751,11 +1751,11 @@
       "blksize": 4194304,
       "ino": 10626979,
       "blocks": 0,
-      "atimeMs": 1533548039076.506,
+      "atimeMs": 1533550599183.0376,
       "mtimeMs": 1533206119571.7693,
       "ctimeMs": 1533290358688.3535,
       "birthtimeMs": 1533206119571.522,
-      "atime": "2018-08-06T09:33:59.077Z",
+      "atime": "2018-08-06T10:16:39.183Z",
       "mtime": "2018-08-02T10:35:19.572Z",
       "ctime": "2018-08-03T09:59:18.688Z",
       "birthtime": "2018-08-02T10:35:19.572Z"
@@ -1765,7 +1765,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4864d88045947886e41f4eaa50be43c6",
+        "contentDigest": "aab5fd0661723f8d3e872ff1cd202db4",
         "type": "Directory",
         "description": "Directory \"src/pages/hi-folks\"",
         "owner": "gatsby-source-filesystem"
@@ -1777,7 +1777,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-02T10:35:19.574Z",
-      "accessTime": "2018-08-06T09:33:59.076Z",
+      "accessTime": "2018-08-06T10:16:39.183Z",
       "changeTime": "2018-08-03T09:59:18.689Z",
       "birthTime": "2018-08-02T10:35:19.574Z",
       "root": "/",
@@ -1795,11 +1795,11 @@
       "blksize": 4194304,
       "ino": 10626982,
       "blocks": 0,
-      "atimeMs": 1533548039076.4778,
+      "atimeMs": 1533550599183.0737,
       "mtimeMs": 1533206119573.7307,
       "ctimeMs": 1533290358688.9326,
       "birthtimeMs": 1533206119573.6755,
-      "atime": "2018-08-06T09:33:59.076Z",
+      "atime": "2018-08-06T10:16:39.183Z",
       "mtime": "2018-08-02T10:35:19.574Z",
       "ctime": "2018-08-03T09:59:18.689Z",
       "birthtime": "2018-08-02T10:35:19.574Z"
@@ -1809,7 +1809,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "eee9e7965e86967782752a49bf710911",
+        "contentDigest": "bb494461906fd5c4c816baa821e51b24",
         "type": "Directory",
         "description": "Directory \"src/pages/my-second-post\"",
         "owner": "gatsby-source-filesystem"
@@ -1821,7 +1821,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-02T10:35:19.574Z",
-      "accessTime": "2018-08-06T09:33:59.077Z",
+      "accessTime": "2018-08-06T10:16:39.184Z",
       "changeTime": "2018-08-03T09:59:18.689Z",
       "birthTime": "2018-08-02T10:35:19.574Z",
       "root": "/",
@@ -1839,11 +1839,148 @@
       "blksize": 4194304,
       "ino": 10626984,
       "blocks": 0,
-      "atimeMs": 1533548039076.525,
+      "atimeMs": 1533550599183.517,
       "mtimeMs": 1533206119574.1755,
       "ctimeMs": 1533290358689.4915,
       "birthtimeMs": 1533206119574.1235,
-      "atime": "2018-08-06T09:33:59.077Z",
+      "atime": "2018-08-06T10:16:39.184Z",
+      "mtime": "2018-08-02T10:35:19.574Z",
+      "ctime": "2018-08-03T09:59:18.689Z",
+      "birthtime": "2018-08-02T10:35:19.574Z"
+    },
+    "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/404.js absPath of file": {
+      "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/404.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8d50d9a7e3f04ddcc5ff8d43b6effe79",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/404.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/404.js",
+      "relativePath": "404.js",
+      "extension": "js",
+      "size": 198,
+      "prettySize": "198 B",
+      "modifiedTime": "2018-08-02T10:35:19.571Z",
+      "accessTime": "2018-08-06T10:06:15.271Z",
+      "changeTime": "2018-08-03T09:59:18.687Z",
+      "birthTime": "2018-08-02T10:35:19.571Z",
+      "root": "/",
+      "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1665698818,
+      "gid": 1603212982,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 10626977,
+      "blocks": 8,
+      "atimeMs": 1533549975271.4385,
+      "mtimeMs": 1533206119571.4487,
+      "ctimeMs": 1533290358687.2473,
+      "birthtimeMs": 1533206119571.3958,
+      "atime": "2018-08-06T10:06:15.271Z",
+      "mtime": "2018-08-02T10:35:19.571Z",
+      "ctime": "2018-08-03T09:59:18.687Z",
+      "birthtime": "2018-08-02T10:35:19.571Z"
+    },
+    "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/index.js absPath of file": {
+      "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bd2ea51fbec1fd0e8f51401f97f9b298",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 1551,
+      "prettySize": "1.55 kB",
+      "modifiedTime": "2018-08-02T10:35:19.574Z",
+      "accessTime": "2018-08-06T10:06:15.272Z",
+      "changeTime": "2018-08-03T09:59:18.688Z",
+      "birthTime": "2018-08-02T10:35:19.574Z",
+      "root": "/",
+      "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1665698818,
+      "gid": 1603212982,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 10626978,
+      "blocks": 8,
+      "atimeMs": 1533549975271.5273,
+      "mtimeMs": 1533206119574.0403,
+      "ctimeMs": 1533290358687.541,
+      "birthtimeMs": 1533206119573.964,
+      "atime": "2018-08-06T10:06:15.272Z",
+      "mtime": "2018-08-02T10:35:19.574Z",
+      "ctime": "2018-08-03T09:59:18.688Z",
+      "birthtime": "2018-08-02T10:35:19.574Z"
+    },
+    "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file": {
+      "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file",
+      "children": [
+        "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f717290bdf9850facd9406bed12bba4c",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/my-second-post/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md",
+      "relativePath": "my-second-post/index.md",
+      "extension": "md",
+      "size": 378,
+      "prettySize": "378 B",
+      "modifiedTime": "2018-08-02T10:35:19.574Z",
+      "accessTime": "2018-08-06T09:59:12.552Z",
+      "changeTime": "2018-08-03T09:59:18.689Z",
+      "birthTime": "2018-08-02T10:35:19.574Z",
+      "root": "/",
+      "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "my-second-post",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1665698818,
+      "gid": 1603212982,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 10626985,
+      "blocks": 8,
+      "atimeMs": 1533549552551.7778,
+      "mtimeMs": 1533206119574.2263,
+      "ctimeMs": 1533290358689.4338,
+      "birthtimeMs": 1533206119574.1704,
+      "atime": "2018-08-06T09:59:12.552Z",
       "mtime": "2018-08-02T10:35:19.574Z",
       "ctime": "2018-08-03T09:59:18.689Z",
       "birthtime": "2018-08-02T10:35:19.574Z"
@@ -1868,7 +2005,7 @@
       "size": 5460,
       "prettySize": "5.46 kB",
       "modifiedTime": "2018-08-02T10:35:19.574Z",
-      "accessTime": "2018-08-06T09:25:43.925Z",
+      "accessTime": "2018-08-06T09:59:12.552Z",
       "changeTime": "2018-08-03T09:59:18.689Z",
       "birthTime": "2018-08-02T10:35:19.574Z",
       "root": "/",
@@ -1886,11 +2023,11 @@
       "blksize": 4194304,
       "ino": 10626983,
       "blocks": 16,
-      "atimeMs": 1533547543925.2612,
+      "atimeMs": 1533549552551.5166,
       "mtimeMs": 1533206119573.8708,
       "ctimeMs": 1533290358688.8718,
       "birthtimeMs": 1533206119573.7253,
-      "atime": "2018-08-06T09:25:43.925Z",
+      "atime": "2018-08-06T09:59:12.552Z",
       "mtime": "2018-08-02T10:35:19.574Z",
       "ctime": "2018-08-03T09:59:18.689Z",
       "birthtime": "2018-08-02T10:35:19.574Z"
@@ -1915,7 +2052,7 @@
       "size": 857,
       "prettySize": "857 B",
       "modifiedTime": "2018-08-02T10:35:19.572Z",
-      "accessTime": "2018-08-06T09:25:43.925Z",
+      "accessTime": "2018-08-06T09:59:12.551Z",
       "changeTime": "2018-08-03T09:59:18.688Z",
       "birthTime": "2018-08-02T10:35:19.572Z",
       "root": "/",
@@ -1933,151 +2070,39 @@
       "blksize": 4194304,
       "ino": 10626980,
       "blocks": 8,
-      "atimeMs": 1533547543925.413,
+      "atimeMs": 1533549552551.2803,
       "mtimeMs": 1533206119571.6272,
       "ctimeMs": 1533290358687.9402,
       "birthtimeMs": 1533206119571.566,
-      "atime": "2018-08-06T09:25:43.925Z",
+      "atime": "2018-08-06T09:59:12.551Z",
       "mtime": "2018-08-02T10:35:19.572Z",
       "ctime": "2018-08-03T09:59:18.688Z",
       "birthtime": "2018-08-02T10:35:19.572Z"
     },
-    "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file": {
-      "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file",
-      "children": [
-        "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "f717290bdf9850facd9406bed12bba4c",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/pages/my-second-post/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md",
-      "relativePath": "my-second-post/index.md",
-      "extension": "md",
-      "size": 378,
-      "prettySize": "378 B",
-      "modifiedTime": "2018-08-02T10:35:19.574Z",
-      "accessTime": "2018-08-06T09:25:43.926Z",
-      "changeTime": "2018-08-03T09:59:18.689Z",
-      "birthTime": "2018-08-02T10:35:19.574Z",
-      "root": "/",
-      "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "my-second-post",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 1665698818,
-      "gid": 1603212982,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 10626985,
-      "blocks": 8,
-      "atimeMs": 1533547543925.5374,
-      "mtimeMs": 1533206119574.2263,
-      "ctimeMs": 1533290358689.4338,
-      "birthtimeMs": 1533206119574.1704,
-      "atime": "2018-08-06T09:25:43.926Z",
-      "mtime": "2018-08-02T10:35:19.574Z",
-      "ctime": "2018-08-03T09:59:18.689Z",
-      "birthtime": "2018-08-02T10:35:19.574Z"
-    },
-    "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/404.js absPath of file": {
-      "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/404.js absPath of file",
+    "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "___SOURCE___",
+      "parent": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file",
       "internal": {
-        "contentDigest": "8d50d9a7e3f04ddcc5ff8d43b6effe79",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/pages/404.js\"",
-        "owner": "gatsby-source-filesystem"
+        "content": "---\ntitle: My Second Post!\ndate: \"2015-05-06T23:46:37.121Z\"\n---\n\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"?\n([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "feb26b6709dd33026edf1137ff5c8f08",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
       },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/404.js",
-      "relativePath": "404.js",
-      "extension": "js",
-      "size": 198,
-      "prettySize": "198 B",
-      "modifiedTime": "2018-08-02T10:35:19.571Z",
-      "accessTime": "2018-08-06T09:25:43.923Z",
-      "changeTime": "2018-08-03T09:59:18.687Z",
-      "birthTime": "2018-08-02T10:35:19.571Z",
-      "root": "/",
-      "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages",
-      "base": "404.js",
-      "ext": ".js",
-      "name": "404",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 1665698818,
-      "gid": 1603212982,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 10626977,
-      "blocks": 8,
-      "atimeMs": 1533547543922.967,
-      "mtimeMs": 1533206119571.4487,
-      "ctimeMs": 1533290358687.2473,
-      "birthtimeMs": 1533206119571.3958,
-      "atime": "2018-08-06T09:25:43.923Z",
-      "mtime": "2018-08-02T10:35:19.571Z",
-      "ctime": "2018-08-03T09:59:18.687Z",
-      "birthtime": "2018-08-02T10:35:19.571Z"
-    },
-    "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/index.js absPath of file": {
-      "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/index.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "bd2ea51fbec1fd0e8f51401f97f9b298",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/pages/index.js\"",
-        "owner": "gatsby-source-filesystem"
+      "frontmatter": {
+        "title": "My Second Post!",
+        "date": "2015-05-06T23:46:37.121Z",
+        "_PARENT": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file",
+        "parent": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file"
       },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/index.js",
-      "relativePath": "index.js",
-      "extension": "js",
-      "size": 1551,
-      "prettySize": "1.55 kB",
-      "modifiedTime": "2018-08-02T10:35:19.574Z",
-      "accessTime": "2018-08-06T09:25:43.923Z",
-      "changeTime": "2018-08-03T09:59:18.688Z",
-      "birthTime": "2018-08-02T10:35:19.574Z",
-      "root": "/",
-      "dir": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages",
-      "base": "index.js",
-      "ext": ".js",
-      "name": "index",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 1665698818,
-      "gid": 1603212982,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 10626978,
-      "blocks": 8,
-      "atimeMs": 1533547543923.0273,
-      "mtimeMs": 1533206119574.0403,
-      "ctimeMs": 1533290358687.541,
-      "birthtimeMs": 1533206119573.964,
-      "atime": "2018-08-06T09:25:43.923Z",
-      "mtime": "2018-08-02T10:35:19.574Z",
-      "ctime": "2018-08-03T09:59:18.688Z",
-      "birthtime": "2018-08-02T10:35:19.574Z"
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md",
+      "fields": {
+        "slug": "/my-second-post/"
+      }
     },
     "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hi-folks/index.md absPath of file >>> MarkdownRemark",
@@ -2129,31 +2154,6 @@
         "slug": "/hello-world/"
       }
     },
-    "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file",
-      "internal": {
-        "content": "---\ntitle: My Second Post!\ndate: \"2015-05-06T23:46:37.121Z\"\n---\n\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"?\n([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "feb26b6709dd33026edf1137ff5c8f08",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "My Second Post!",
-        "date": "2015-05-06T23:46:37.121Z",
-        "_PARENT": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file",
-        "parent": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md absPath of file"
-      },
-      "excerpt": "",
-      "fileAbsolutePath": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/my-second-post/index.md",
-      "fields": {
-        "slug": "/my-second-post/"
-      }
-    },
     "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world/salty_egg.jpg absPath of file": {
       "id": "/Users/dubiaoqi/Documents/spare-time-workspace/dogiant.github.io/src/pages/hello-world/salty_egg.jpg absPath of file",
       "children": [
@@ -2174,7 +2174,7 @@
       "size": 684322,
       "prettySize": "684 kB",
       "modifiedTime": "2018-08-02T10:35:19.574Z",
-      "accessTime": "2018-08-06T09:25:43.925Z",
+      "accessTime": "2018-08-06T09:59:12.551Z",
       "changeTime": "2018-08-03T09:59:18.688Z",
       "birthTime": "2018-08-02T10:35:19.572Z",
       "root": "/",
@@ -2192,11 +2192,11 @@
       "blksize": 4194304,
       "ino": 10626981,
       "blocks": 1344,
-      "atimeMs": 1533547543925.413,
+      "atimeMs": 1533549552551.3206,
       "mtimeMs": 1533206119573.5806,
       "ctimeMs": 1533290358688.2969,
       "birthtimeMs": 1533206119571.7622,
-      "atime": "2018-08-06T09:25:43.925Z",
+      "atime": "2018-08-06T09:59:12.551Z",
       "mtime": "2018-08-02T10:35:19.574Z",
       "ctime": "2018-08-03T09:59:18.688Z",
       "birthtime": "2018-08-02T10:35:19.572Z"
@@ -2227,7 +2227,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a48d5c163af157a34dd7347cd0c4505a",
+        "contentDigest": "b91ee794b57ae1ccab1056f5317146d8",
         "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
@@ -2259,7 +2259,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5e19efe3b5bbfdb6747d50af1ed9d762",
+        "contentDigest": "a6c9fa75567e7c091df3476a4c49e59c",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2298,7 +2298,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ecd8ebefc58bd853f25a23689851ed56",
+        "contentDigest": "cb7dafc04298e10651bcf469c075bdc0",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2330,7 +2330,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5ad3fad07c97dc2da70ec6f250875220",
+        "contentDigest": "845ab45002948a9e2297a08f7a1ee625",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2351,7 +2351,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d5a4ec1805d89fdd5d9532abbe838552",
+        "contentDigest": "6acbfe2a139b282d6c02152b774548ec",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2372,7 +2372,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ef73f3e8fd649024a7cf4f1dffc1bada",
+        "contentDigest": "2eea6fb7113b7e0759832ab957f29420",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2393,7 +2393,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2fa943709ccff24562019b67d3855efe",
+        "contentDigest": "077c00b6259e4bb68b33f60591c3a45d",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -2401,7 +2401,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "1e9fb367f82bed52c90b1b1e037e69c2"
+    "PLUGINS_HASH": "384756db1b7613e5bf2e9d0599fcad53"
   },
   "componentDataDependencies": {
     "nodes": {

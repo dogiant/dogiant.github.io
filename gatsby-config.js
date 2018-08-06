@@ -5,7 +5,6 @@ module.exports = {
     description: 'A starter blog demonstrating what Gatsby can do.',
     siteUrl: 'https://dogiant.github.io/',
   },
-  pathPrefix: '/',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
