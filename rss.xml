@@ -1,4 +1,201 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://dogiant.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 06 Aug 2018 10:16:52 GMT</lastBuildDate><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dogiant's Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://dogiant.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 15 Aug 2018 02:49:08 GMT</lastBuildDate><item><title><![CDATA[webpack学习笔记]]></title><description><![CDATA[官网： https://webpack.js.org/guides/getting-started/   Guides学习 安装 起步 配置 webpack.config.js 配置 package.json   通过 npm run build…]]></description><link>https://dogiant.github.io//webpack-notes/webpack-notes-1/</link><guid isPermaLink="false">https://dogiant.github.io//webpack-notes/webpack-notes-1/</guid><pubDate>Fri, 13 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;官网：&lt;br&gt;
+&lt;a href=&quot;https://webpack.js.org/guides/getting-started/&quot;&gt;https://webpack.js.org/guides/getting-started/&lt;/a&gt; &lt;/p&gt;
+&lt;h2&gt;Guides学习&lt;/h2&gt;
+&lt;h3&gt;安装&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;mkdir webpack-demo &amp;amp;&amp;amp; cd webpack-demo  
+npm init -y   
+npm install webpack webpack-cli --save-dev    &lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;起步&lt;/h3&gt;
+&lt;p&gt;配置 webpack.config.js&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npx webpack --config webpack.config.js&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;配置 package.json  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;    &amp;quot;scripts&amp;quot;: {   
+    &amp;quot;build&amp;quot;: &amp;quot;webpack&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;通过 npm run build 来执行构建&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;管理资源&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install --save-dev style-loader css-loader
+npm install --save-dev file-loader
+npm install --save-dev csv-loader xml-loader&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;注意：使用goog-webfont-dl工具下载字体.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install -g goog-webfont-dl
+goog-webfont-dl -a -f &amp;#39;Source Sans Pro&amp;#39; -y &amp;#39;300,400,600,900&amp;#39;
+goog-webfont-dl -a -f &amp;#39;Lato&amp;#39; -y &amp;#39;100&amp;#39; &lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;管理输出&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install --save-dev html-webpack-plugin&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  const path = require(&amp;#39;path&amp;#39;);
+
+  module.exports = {
+-   entry: &amp;#39;./src/index.js&amp;#39;,
++   entry: {
++     app: &amp;#39;./src/index.js&amp;#39;,
++     print: &amp;#39;./src/print.js&amp;#39;
++   },
+    output: {
+-     filename: &amp;#39;bundle.js&amp;#39;,
++     filename: &amp;#39;[name].bundle.js&amp;#39;,
+      path: path.resolve(__dirname, &amp;#39;dist&amp;#39;)
+    }
+  };&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;清理dist文件夹&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install clean-webpack-plugin --save-dev&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;webpack.config.js&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;+ const CleanWebpackPlugin = require(&amp;#39;clean-webpack-plugin&amp;#39;);
+...
+    plugins: [
++     new CleanWebpackPlugin([&amp;#39;dist&amp;#39;]),&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;开发&lt;/h2&gt;
+&lt;h3&gt;观察模式&lt;/h3&gt;
+&lt;p&gt;package.json&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{
+  &amp;quot;name&amp;quot;: &amp;quot;webpack-demo&amp;quot;,
+  &amp;quot;version&amp;quot;: &amp;quot;1.0.0&amp;quot;,
+  &amp;quot;description&amp;quot;: &amp;quot;&amp;quot;,
+  &amp;quot;private&amp;quot;: true,
+  &amp;quot;scripts&amp;quot;: {
+    &amp;quot;test&amp;quot;: &amp;quot;echo \&amp;quot;Error: no test specified\&amp;quot; &amp;amp;&amp;amp; exit 1&amp;quot;,
++   &amp;quot;watch&amp;quot;: &amp;quot;webpack --watch&amp;quot;,
+    &amp;quot;build&amp;quot;: &amp;quot;webpack&amp;quot;
+  },
+  &amp;quot;keywords&amp;quot;: [],
+  &amp;quot;author&amp;quot;: &amp;quot;&amp;quot;,
+  &amp;quot;license&amp;quot;: &amp;quot;ISC&amp;quot;,
+  &amp;quot;devDependencies&amp;quot;: {
+    &amp;quot;clean-webpack-plugin&amp;quot;: &amp;quot;^0.1.19&amp;quot;,
+    &amp;quot;css-loader&amp;quot;: &amp;quot;^1.0.0&amp;quot;,
+    &amp;quot;csv-loader&amp;quot;: &amp;quot;^3.0.2&amp;quot;,
+    &amp;quot;file-loader&amp;quot;: &amp;quot;^1.1.11&amp;quot;,
+    &amp;quot;html-webpack-plugin&amp;quot;: &amp;quot;^3.2.0&amp;quot;,
+    &amp;quot;papaparse&amp;quot;: &amp;quot;^4.5.0&amp;quot;,
+    &amp;quot;style-loader&amp;quot;: &amp;quot;^0.21.0&amp;quot;,
+    &amp;quot;webpack&amp;quot;: &amp;quot;^4.16.0&amp;quot;,
+    &amp;quot;webpack-cli&amp;quot;: &amp;quot;^3.0.8&amp;quot;,
+    &amp;quot;xml-loader&amp;quot;: &amp;quot;^1.2.1&amp;quot;
+  },
+  &amp;quot;dependencies&amp;quot;: {
+    &amp;quot;lodash&amp;quot;: &amp;quot;^4.17.10&amp;quot;
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;使用 webpack-dev-server&lt;/h3&gt;
+&lt;p&gt;webpack.config.js&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;+   devServer: {. 
++     contentBase: &amp;#39;./dist&amp;#39;
++   },  &lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;第一个问题来了：&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;ZBMAC-C02VQ200H:webpack-demo dubiaoqi$ npm start
+
+&amp;gt; webpack-demo@1.0.0 start /data/javascript-lab/webpack-demo
+&amp;gt; webpack-dev-server --open
+
+events.js:167
+      throw er; // Unhandled &amp;#39;error&amp;#39; event
+      ^
+
+Error: getaddrinfo ENOTFOUND localhost
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:50:26)
+Emitted &amp;#39;error&amp;#39; event at:
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1499:12)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:50:17)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! webpack-demo@1.0.0 start: `webpack-dev-server --open`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the webpack-demo@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/dubiaoqi/.npm/_logs/2018-07-13T08_32_20_049Z-debug.log
+ZBMAC-C02VQ200H:webpack-demo dubiaoqi$ &lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;提示问题： 没有拿到地址信息localhost.  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000015274463&quot;&gt;https://segmentfault.com/a/1190000015274463&lt;/a&gt;&lt;br&gt;
+配置host  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# My hosts
+127.0.0.1	localhost&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;处理完毕，启动成功。&lt;/p&gt;
+&lt;h3&gt;使用 webpack-dev-middleware&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install --save-dev express webpack-dev-middleware&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;webpack.config.js&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;    output: {
+      filename: &amp;#39;[name].bundle.js&amp;#39;,
+      path: path.resolve(__dirname, &amp;#39;dist&amp;#39;),
++     publicPath: &amp;#39;/&amp;#39;
+    }&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;增加server.js&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  webpack-demo
+  |- package.json
+  |- webpack.config.js
++ |- server.js
+  |- /dist
+  |- /src
+    |- index.js
+    |- print.js
+  |- /node_modules&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;server.js&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;const express = require(&amp;#39;express&amp;#39;);
+const webpack = require(&amp;#39;webpack&amp;#39;);
+const webpackDevMiddleware = require(&amp;#39;webpack-dev-middleware&amp;#39;);
+
+const app = express();
+const config = require(&amp;#39;./webpack.config.js&amp;#39;);
+const compiler = webpack(config);
+
+// Tell express to use the webpack-dev-middleware and use the webpack.config.js
+// configuration file as a base.
+app.use(webpackDevMiddleware(compiler, {
+  publicPath: config.output.publicPath
+}));
+
+// Serve the files on port 3000.
+app.listen(3000, function () {
+  console.log(&amp;#39;Example app listening on port 3000!\n&amp;#39;);
+});&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;添加一个 npm script
+package.json&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;    &amp;quot;scripts&amp;quot;: {
+      &amp;quot;test&amp;quot;: &amp;quot;echo \&amp;quot;Error: no test specified\&amp;quot; &amp;amp;&amp;amp; exit 1&amp;quot;,
+      &amp;quot;watch&amp;quot;: &amp;quot;webpack --watch&amp;quot;,
+      &amp;quot;start&amp;quot;: &amp;quot;webpack-dev-server --open&amp;quot;,
++     &amp;quot;server&amp;quot;: &amp;quot;node server.js&amp;quot;,
+      &amp;quot;build&amp;quot;: &amp;quot;webpack&amp;quot;
+    },&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;执行成功
+&lt;a href=&quot;http://localhost:3000&quot;&gt;http://localhost:3000&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://dogiant.github.io//hi-folks/</link><guid isPermaLink="false">https://dogiant.github.io//hi-folks/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
 right at the coast of the Semantics, a large language ocean. A small river named
