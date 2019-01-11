@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Dogiant\'s Blog',
-    author: 'Andy Do',
+    author: 'Andy Du',
     description: 'A starter blog demonstrating what Gatsby can do.',
     siteUrl: 'https://dogiant.github.io/',
   },
